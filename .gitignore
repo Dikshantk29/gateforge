@@ -1,0 +1,59 @@
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Java / Maven
+# ==============================
+target/
+*.class
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+
+# ==============================
+# Build
+# ==============================
+build/
+out/
+dist/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+
+# ==============================
+# Local configuration
+# ==============================
+application-local.properties
+application-local.yml
+application-local.yaml
